@@ -103,12 +103,9 @@
                                         <p><b>abbbc</b></p>
                                     </div>
                                     <div class="social">
-                                        <div class="social_list" >
-                                            <ul style="">
-                                                <li data-social="facebook" id="abc"><i class="fab fa-fw fa-facebook-f social_item"></i></li>
-                                                <li data-social="instagram"><i class="fab fa-instagram social_item abc"></i></li>
-                                                <li data-social="mail"><i class="material-icons social_item">mail_outline</i></li>
-                                                <li data-social="github"><i class="fab fab fa-github social_item"></i></li>
+                                        <div class="social_list">
+                                            <ul>
+                                                <?= display_contact_social() ?>
                                             </ul>
                                         </div>
                                     </div>
