@@ -42,6 +42,7 @@ ul{
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu2 {
@@ -69,12 +70,8 @@ ul{
     animation-direction:alternate;
     animation-timing-function:ease-in-out;
 }
-/*.site_right_animation{
-	width: 60%;
-	padding: 0;
-	background-color: #46566d;
-	margin: 50px 0;
-}*/
+
+
 @-webkit-keyframes an1 {
     0%{width: 60%;}
     50%{width: 0;}
@@ -94,7 +91,6 @@ ul{
 }
 .menu{
     background-color: #46566d;
-    display: flex;
     color: white;
     flex-basis: 90px;
     flex-direction: column;
@@ -276,5 +272,8 @@ ul{
     flex-basis: 50px;
 }
 .site_right{
+}
 
+.start_theme {
+    width: 0;
 }

@@ -1,4 +1,6 @@
 jQuery(document).ready(function () {
+    scroll_auto(2000);
+
     $(window).resize(function() {
         var windowsize = $(window).width();
         if(windowsize > 509 && windowsize < 991){
@@ -11,25 +13,33 @@ jQuery(document).ready(function () {
             $('#site_right').css("width",'60%');
         }
     });
+
     $('.menu .list_item').click(function(){
         $('#site_right').animate({
-            width:'0'
+            width:'0',
         },500);
-        $('#site_right').animate({
-            width: '60%'
-        },500, function(){
-            var windowsize = $(window).width();
-            if(windowsize< 509){
-                $('#site_right').css("width",'80%');
-            }
-            else{
-                $('#site_right').css("width",'60%');
-            }
-
-        });
-        // $(window).on("resize",function(){
-        //    $('#site_right').css("width",$('.site_left').width()+275+"px");
-        // });
-
+        scroll_auto(0);
     });
 })
+
+function start_display_info() {
+    if($('#site_right').hasClass('start_theme')) {
+        $('#site_right').removeClass('start_theme')
+        $('.height_100').css('justify-content' , 'left');
+    }
+}
+
+function scroll_auto(delay) {
+    $('#site_right').delay( delay ).animate({
+        width: '60%',
+    },500, function(){
+        let windowsize = $(window).width();
+        let width = "60%";
+        if(windowsize < 509){
+            width = "80%";
+        }
+
+        $('#site_right').css('width' , width);
+        start_display_info()
+    });
+}
