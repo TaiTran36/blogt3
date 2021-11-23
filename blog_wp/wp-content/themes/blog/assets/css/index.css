@@ -201,10 +201,20 @@ ul{
     bottom:0;
     width: 100%;
 }
+
+.social_list ul{
+    justify-content: center;
+}
+
 .social_list li{
     font-size: 18px;
     width: 25%;
 }
+
+.social_list li .social_item {
+    cursor: pointer;
+}
+
 .infor_social .name h2{
     font-family: Poppins;
     font-size: 45px;
