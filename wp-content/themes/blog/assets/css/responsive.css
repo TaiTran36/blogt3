@@ -1,0 +1,240 @@
+@media all and (min-device-width: 1770px){
+    .image::before {
+        border-left: 700px solid #f2f2f2;
+    }
+
+    .hexagon {
+        left: 22rem;
+    }
+}
+
+@media all and (max-device-width: 1440px){
+    .hexagon {
+        left: 13rem;
+    }
+}
+
+@media all and (min-device-width: 1322px){
+
+    .hexagon::before{
+        left: 58px;
+    }
+    .hexagon::after{
+        right: 58px;
+    }
+}
+@media all and (max-device-width: 1200px){
+    .site_content{
+        padding: 2% 0;
+    }
+    .hexagon {
+        left: 140px;
+    }
+    .img{
+        left:125px;
+    }
+    .menu_item{
+        padding: 10px;
+    }
+    .infor_social .name::before {
+        left: 30px;
+    }
+    .infor_social .name::after {
+        left: 30px;
+    }
+    .infor_social .name h2::after {
+        left: 90px;
+    }
+    .infor_social .name h2::before {
+        left: 75px;
+    }
+}
+
+@media all and (max-device-width: 1024px){
+    .container_site {
+        padding: 50px;
+    }
+
+    .hexagon {
+        left: 10rem;
+    }
+}
+
+@media all and (max-device-width: 991px){
+    .hexagon {
+        left: 70px;
+    }
+    .img{
+        left:55px;
+    }
+    .image{
+        height: 50%;
+    }
+    .image::before{
+        top:145px;
+        left:-200px;
+        width: 600px;
+        height: 400px;
+        transform: rotate(40deg);
+    }
+    .infor_social .name::before {
+        left: 15px;
+    }
+    .infor_social .name::after {
+        left: 15px;
+    }
+    .infor_social .name h2::after {
+        left: 70px;
+    }
+    .infor_social .name h2::before {
+        left:60px;
+    }
+}
+@media all and (max-device-width: 991px){
+    .menu2{
+        display: block;
+
+    }
+    .site_content{
+        padding:10px;
+    }
+    .container{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .site_left{
+        width: 30%;
+    }
+    .site_right{
+        width: 70%;
+        margin: 5px 0;
+    }
+    .infor_social .name::before {
+        left: 15px;
+        width: 75%;
+    }
+    .infor_social .name::after {
+        left: 15px;
+        width: 70%;
+    }
+    .infor_social .name h2::after {
+        left: 25%;
+        width: 70%;
+    }
+    .infor_social .name h2::before {
+        left: 20%;
+        width: 75%;
+    }
+
+}
+@media all and (max-device-width: 785px){
+    .hexagon {
+        width: 100px;
+        height: 140px;
+        left: 27%;
+    }
+    .hexagon::before {
+        top: 50px;
+        left: 49px;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+    }
+    .hexagon::after {
+        bottom: 50px;
+        right: 49px;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+    }
+    .img{
+        left:21%;
+        height: 125px;
+        width: 125px;
+    }
+    .infor_social .name h2{
+        font-size: 35px;
+    }
+    .infor_social .name h2::after {
+        height: 45px;
+    }
+    .infor_social .name h2::before {
+        height: 50px;
+    }
+}
+@media all and (max-device-width: 643px){
+    .hexagon {
+        width: 80px;
+        height: 120px;
+        left: 30%;
+    }
+    .hexagon::before {
+        top: 40px;
+        left: 39px;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+    }
+    .hexagon::after {
+        bottom: 40px;
+        right: 39px;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+    }
+    .img{
+        left:21%;
+        height: 110px;
+        width: 110px;
+    }
+    .image::before {
+        left: -240px;
+        top:143px;
+        transform: rotate(45deg);
+    }
+    .infor_social .name h2{
+        font-size: 30px;
+    }
+}
+
+@media all and (max-device-width: 572px){
+    .infor_social .name h2{
+        font-size: 25px;
+    }
+    .infor_social .name h2::after {
+        height: 35px;
+    }
+    .infor_social .name h2::before {
+        height: 40px;
+    }
+}
+@media all and (max-device-width: 560px){
+    .hexagon {
+        left: 25%;
+    }
+    .img{
+        left:16%;
+    }
+}
+@media all and (max-device-width: 509px){
+    .menu2{
+        display: none;
+    }
+    .avatar{
+        display: none;
+    }
+    .menu{
+        display: block;
+        margin: 0;
+        padding: 90px 0;
+        background-color: #5a6f8c;
+        justify-content: center !important;
+    }
+    .menu_item,.download{
+        background-color: #5a6f8c;
+    }
+    .site_left{
+        width: auto;
+    }
+    .site_right{
+        width: calc(100% - 70px);
+    }
+}

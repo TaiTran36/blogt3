@@ -1,0 +1,1 @@
+[18-Nov-2021 09:18:06 UTC] PHP Warning:  constant(): Couldn't find constant WP_ENVIRONMENT_TYPE in C:\xampp\htdocs\blog_wp\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
