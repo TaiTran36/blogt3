@@ -70,43 +70,7 @@
                     </div>
                     <div class="col-sm-6 site_right start_theme" id="site_right">
                         <div class="site_content_page">
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
-                                <p>askhfksaflsaf</p>
+                            <?php get_template_part('template-part/contents/content-about'); ?>
                         </div>
                     </div>
                 </div>
