@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
             $('#site_right').css("width",'85%');
         }
         else{
-            $('#site_right').css("width",'60%');
+            $('#site_right').css("width",'55%');
         }
     });
 
@@ -31,10 +31,10 @@ function start_display_info() {
 
 function scroll_auto(delay) {
     $('#site_right').delay( delay ).animate({
-        width: '60%',
+        width: '55%',
     },500, function(){
         let windowsize = $(window).width();
-        let width = "60%";
+        let width = "55%";
         if(windowsize < 509){
             width = "80%";
         }
