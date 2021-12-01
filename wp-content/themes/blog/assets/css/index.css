@@ -32,6 +32,101 @@ ul{
 
 .site_content {
     height: 100%;
+    background: linear-gradient(to bottom right,#85898a 0%,#e5e6e8 100%);
+}
+
+.square-item {
+    position: absolute;
+    bottom: -1200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: rgba(255,255,255,.1);;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.square-2 {
+    width: 400px;
+    height: 400px;
+    left: 15%;
+    transform: rotate(45deg);
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+.square-3 {
+    width: 150px;
+    height: 150px;
+    left: 25%;
+    transform: rotate(70deg);
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+    animation-delay: 4s;
+}
+.square-4 {
+    width: 175px;
+    height: 175px;
+    left: 50%;
+    transform: rotate(70deg);
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+    animation-delay: 1s;
+}
+.square-5 {
+    width: 300px;
+    height: 300px;
+    left: 60%;
+    transform: rotate(50deg);
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+    animation-delay: 2s;
+}
+
+.square-6 {
+    width: 150px;
+    height: 150px;
+    left: 0;
+    transform: rotate(50deg);
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+    animation-delay: 7s;
+}
+
+.square-7 {
+    width: 450px;
+    height: 450px;
+    right: 100px;
+    transform: rotate(50deg);
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+    animation-delay: 5s;
+}
+
+@keyframes example {
+    0%   {bottom: -1200px;}
+    100% {transform: rotate(360deg); bottom:0}
 }
 
 .container_site {
@@ -405,4 +500,3 @@ ul{
     height: 100%;
     background: radial-gradient(ellipse at top,rgba(197,202,213,.15) 0%,rgba(255,255,255,0) 70%);
 }
-
