@@ -2,6 +2,15 @@
 <div class="container-full">
     <div class="site_backgound">
         <div class="site_content">
+            <div class="square-animation" style="position:relative;">
+                <div class="square-item square-1"></div>
+                <div class="square-item square-2"></div>
+                <div class="square-item square-3"></div>
+                <div class="square-item square-4"></div>
+                <div class="square-item square-5"></div>
+                <div class="square-item square-6"></div>
+                <div class="square-item square-7"></div>
+            </div>
             <div class="col-sm-12 container_site">
                 <div class="row height_100">
                     <div class="menu2">
