@@ -487,75 +487,75 @@ ul{
     background: radial-gradient(ellipse at left,#ddd 0%,rgba(255,255,255,0) 70%);
 }
 
-.container_about .item {
+.container_page .item {
     margin-bottom: 5rem;
 }
 
-.container_about .item .title {
+.container_page .item .title {
     padding: 0 3vh;
     font-size: 2.5rem;
 }
 
-.container_about .item .title .first-title {
+.container_page .item .title .first-title {
     color: #4c7753;
 }
 
-.container_about .content {
+.container_page .content {
     font-family: 'Poppins';
     padding: 3vh;
     font-size: 13pt;
 }
 
-.container_about .quote .content {
+.container_page .quote .content {
     display: flex;
 }
 
-.container_about .content .quote_content {
+.container_page .content .quote_content {
      padding: 0 2vh;
 }
 
-.container_about .content .quote_icon {
+.container_page .content .quote_icon {
     font-size: 10pt;
     color: #323232;
 }
 
-.container_about .content .quote_icon_right {
+.container_page .content .quote_icon_right {
     position: relative;
 }
 
-.container_about .content .quote_icon_right i {
+.container_page .content .quote_icon_right i {
     position: absolute;
     bottom: 0;
 }
 
 
-.container_about .quote .author {
+.container_page .quote .author {
     text-align: right;
     margin-right: 30pt;
     font-size: 12pt;
 }
 
-.container_about .content .list-favorites {
+.container_page .content .list-favorites {
     display: flex;
     flex-wrap: wrap
 }
 
-.container_about .content .list-favorites .favorite-item {
+.container_page .content .list-favorites .favorite-item {
     padding: 30px 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.container_about .content .list-favorites .favorite-item .box {
+.container_page .content .list-favorites .favorite-item .box {
     width: 97%;
 }
 
-.container_about .content .list-favorites .favorite-item .favorite-item-image i {
+.container_page .content .list-favorites .favorite-item .favorite-item-image i {
     font-size: 20pt;
     margin-bottom: 15px;
 }
 
-.container_about .content .list-favorites .favorite-item .border_right {
+.container_page .content .list-favorites .favorite-item .border_right {
     width: 3px;
     height: 100%;
     background: radial-gradient(ellipse at top,#ddd 0%,rgba(255,255,255,0) 70%);
@@ -567,7 +567,27 @@ ul{
     opacity: 0;
 }
 
+.page_blog {
+    top: 30%;
+    opacity: 0;
+}
+
+
 .page_disable {
     top: 30% !important;
     opacity: 0 !important;
+}
+
+
+/*page contact*/
+
+.container_contact .map{
+    padding: 80px;
+    display: flex;
+}
+
+.container_contact .form_contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
