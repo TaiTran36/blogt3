@@ -38,14 +38,14 @@
 
                 <div class="border_menu_item"></div>
 
-                <li class="list_item menu_item_skill" data-item="skill" data-active="about">
-                    <div class="menu-item text-center">
-                        <div class="glyphicon_item">
-                            <span class="glyphicon glyphicon-tasks"></span>
-                        </div>
-                        <div class="content_item">Skill</div>
-                    </div>
-                </li>
+<!--                <li class="list_item menu_item_skill" data-item="skill" data-active="about">-->
+<!--                    <div class="menu-item text-center">-->
+<!--                        <div class="glyphicon_item">-->
+<!--                            <span class="glyphicon glyphicon-tasks"></span>-->
+<!--                        </div>-->
+<!--                        <div class="content_item">Skill</div>-->
+<!--                    </div>-->
+<!--                </li>-->
             </ul>
         </div>
     </div>

@@ -27,6 +27,8 @@ jQuery(document).ready(function () {
             return;
         }
 
+        $(this).css('po')
+
         let item = $(this).data('item');
         let old_active = $(this).data('active');
 

@@ -1,4 +1,4 @@
-<div class="container_about">
+<div class="container_page container_about">
     <div class="item info">
         <div class="title about_title">
             <span class="first-title">Về</span> Hei

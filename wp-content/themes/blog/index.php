@@ -87,8 +87,9 @@
                             <?php get_template_part('template-part/contents/content-contact'); ?>
                         </div>
                     </div>
-                    <div class="col-sm-6 site_right page_contact" id="site_right1">
+                    <div class="col-sm-6 site_right page_blog" id="site_right2">
                         <div class="site_content_page">
+                            <?php get_template_part('template-part/contents/content-blog'); ?>
                         </div>
                     </div>
                 </div>
