@@ -19,23 +19,7 @@ function my_custom_styles()
     echo "<style>
             .site_right {
                 background-color: " . $color . " !important;
-            }
-            
-            .image::before {
-                border-top-color: " . $color . " !important;
-            }
-            
-            .hexagon {
-                background-color: " . $color . " !important;
-            }
-            
-            .hexagon::before {
-                border-bottom-color: " . $color . " !important;
-            }
-            
-            .hexagon::after {
-                border-top-color: " . $color . " !important;
-            }
+            }  
             
             .menu {
                 background-color: " . $color . " !important;

@@ -5,15 +5,18 @@
     <div class="menu_item menu_list" >
         <div class="menu_container">
             <ul class="menu_ul">
-                <li class="list_item">
+                <li class="list_item menu_item_about active" data-item="about" data-active="about">
                     <div class="menu-item text-center">
                         <div class="glyphicon_item">
-                            <span class="glyphicon glyphicon-user"></span>
+                            <span class="glyphicon glyphicon-user color-active"></span>
                         </div>
-                        <div class="content_item">About</div>
+                        <div class="content_item color-active">About</div>
                     </div>
                 </li>
-                <li class="list_item">
+
+                <div class="border_menu_item"></div>
+
+                <li class="list_item menu_item_contact" data-item="contact" data-active="about">
                     <div class="menu-item text-center">
                         <div class="glyphicon_item">
                             <span class="glyphicon glyphicon-earphone"></span>
@@ -21,7 +24,10 @@
                         <div class="content_item">Contact</div>
                     </div>
                 </li>
-                <li class="list_item">
+
+                <div class="border_menu_item"></div>
+
+                <li class="list_item menu_item_blog" data-item="blog" data-active="about">
                     <div class="menu-item text-center">
                         <div class="glyphicon_item">
                             <span class="glyphicon glyphicon-edit"></span>
@@ -29,7 +35,10 @@
                         <div class="content_item">Blog</div>
                     </div>
                 </li>
-                <li class="list_item">
+
+                <div class="border_menu_item"></div>
+
+                <li class="list_item menu_item_skill" data-item="skill" data-active="about">
                     <div class="menu-item text-center">
                         <div class="glyphicon_item">
                             <span class="glyphicon glyphicon-tasks"></span>

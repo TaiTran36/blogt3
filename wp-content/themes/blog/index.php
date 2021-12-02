@@ -54,7 +54,7 @@
                             <?php get_template_part('template-part/menu-left')?>
                             <div class="avatar">
                                 <div class="image"></div>
-                                <div class="hexagon"></div>
+<!--                                <div class="hexagon"></div>-->
                                 <div class="img" style="">
                                     <img src="" class="img-responsive">
                                 </div>
@@ -77,9 +77,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 site_right start_theme" id="site_right">
+                    <div class="col-sm-6 site_right page_about" id="site_right">
                         <div class="site_content_page">
                             <?php get_template_part('template-part/contents/content-about'); ?>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 site_right page_contact" id="site_right1">
+                        <div class="site_content_page">
+                            <?php get_template_part('template-part/contents/content-contact'); ?>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 site_right page_contact" id="site_right1">
+                        <div class="site_content_page">
                         </div>
                     </div>
                 </div>
