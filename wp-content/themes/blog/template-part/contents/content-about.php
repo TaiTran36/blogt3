@@ -1,18 +1,17 @@
 <div class="container_about">
     <div class="item info">
         <div class="title about_title">
-            Về Hei
+            <span class="first-title">Về</span> Hei
         </div>
         <div class="border_title"></div>
         <div class="content">
-            Xin chào mọi người <br>
-            Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
-        </div>
+            Lorem <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.        </div>
     </div>
 
     <div class="item quote">
         <div class="title quote_title">
-            Châm ngôn
+            <span class="first-title">Châm</span> ngôn
         </div>
         <div class="border_title"></div>
         <div class="content text-center col-sm-12">
@@ -31,7 +30,7 @@
 
     <div class="item favorite">
         <div class="title favorite_title">
-            Sở thích
+            <span class="first-title">Sở</span> thích
         </div>
         <div class="border_title"></div>
         <div class="content">
