@@ -139,6 +139,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    position: relative;
 }
 
 .menu2 {
@@ -421,11 +422,11 @@ ul{
     flex-basis: 50px;
 }
 .site_right{
-    height: 85%;
-    width: 55%;
-    top: 2%;
+    height: 92%;
+    width: 60%;
+    top: -2%;
     position: absolute;
-    left: 41%;
+    left: 40%;
     z-index: 0;
 }
 
@@ -467,6 +468,7 @@ ul{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .site_content_page::after {
@@ -478,6 +480,7 @@ ul{
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 
 .border_title{
@@ -565,11 +568,13 @@ ul{
 .page_contact {
     top: 30%;
     opacity: 0;
+    z-index: -1;
 }
 
 .page_blog {
     top: 30%;
     opacity: 0;
+    z-index: -1;
 }
 
 
@@ -586,8 +591,76 @@ ul{
     display: flex;
 }
 
+.container_contact .map #wpgmza_map{
+    z-index: 0;
+}
+
 .container_contact .form_contact {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
 }
+
+
+/*page blog*/
+
+.container_blog .content a {
+    color: #323232;
+}
+
+.container_blog .content .item-blog:hover .title {
+    color: #4c7753;
+}
+
+.container_blog .content .item-blog:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container_blog .content .item-blog {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container_blog .content .item-blog .feature-image{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    padding-top: 56.25%;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.container_blog .content .item-blog .feature-image img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.container_blog .content .item-blog .create-date {
+    margin: 2rem 0;
+}
+
+.container_blog .content .item-blog .create-date span {
+    color: #4c7753;
+    border: 1px solid #4c7753;
+    padding: 2px 5px;
+}
+
+.container_blog .content .item-blog .content-blog {
+    font-family: 'Outfit', sans-serif;
+}
+
+.container_blog .content .item-blog .content-blog .title {
+    font-weight: 500;
+}
+
+.container_blog .content .item-blog .content-blog .des {
+    color: #646464;
+}
+
