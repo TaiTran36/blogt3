@@ -27,8 +27,6 @@ jQuery(document).ready(function () {
             return;
         }
 
-        $(this).css('po')
-
         let item = $(this).data('item');
         let old_active = $(this).data('active');
 
@@ -43,20 +41,22 @@ jQuery(document).ready(function () {
         $('.menu .list_item').each(function () {
             $(this).data('active', item);
         });
-
+        $('.page_' + item).css('z-index', 0)
         $('.page_' + old_active).animate({
-            top: '-6%', opacity : '0'
+            top: '-12%', opacity : '0'
             },700, function(){
 
         });
 
         $('.page_' + item).animate({
-            top: '2%', opacity : '1'
+            top: '-2%', opacity : '1'
         },1500, function(){
             $('.page_' + old_active).animate({
                 top: '30%', opacity : '0'
             },0, function(){
+                $(this).css('z-index', -1);
             });
+
         });
 
     });
@@ -85,3 +85,4 @@ function scroll_auto(delay) {
     start_display_info();
 
 }
+

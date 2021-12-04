@@ -50,3 +50,5 @@ function display_contact_social() {
 
     return $socials_generate;
 }
+
+add_theme_support( 'post-thumbnails' );
